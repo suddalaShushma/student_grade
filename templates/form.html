@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Update Profile</h1>
+    <form method="POST" action="/form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="{{ user.name }}" required><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" value="{{ user.age }}" required><br
